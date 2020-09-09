@@ -18,3 +18,9 @@
         font-size: 32px;
     }
 }
+
+@media screen and (max-width: 578px) {
+    .hero__girl {
+        display: none;
+    }
+}
