@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header__row{
+	position: relative;
 	padding-top: 34px;
 	
 	display: flex;
@@ -39,10 +40,6 @@ h1, h2, h3, h4, h5, h6{
 
 .header__logo{
 	padding-left: 10px;
-}
-
-.nav{
-		
 }
 
 .nav__menu{
@@ -91,6 +88,7 @@ h1, h2, h3, h4, h5, h6{
 
 .hero{
 	position: relative;
+	overflow: hidden;
 	width: 100vw;
 	height: 624px;
 	background-color:#1b2433 ;
@@ -99,6 +97,7 @@ h1, h2, h3, h4, h5, h6{
 
 .hero__content{
 	width: 710px;
+	
 	
 	padding-top: 100px;
 	padding-bottom: 200px;
@@ -150,7 +149,7 @@ h1, h2, h3, h4, h5, h6{
 	top: 0;
 	right: 0;
 	z-index: 5;
-	height: 100vh;	
+	height: 840px;
 	width: 780px;
 }
 
@@ -174,9 +173,6 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
 
-.features__row {
-
-}
 
 .col-4{
 	width: 33.33%;
