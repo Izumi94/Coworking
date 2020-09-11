@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 578px) {
+@media screen and (max-width: 578px) {
     .hero__girl {
         display: none;
     }
